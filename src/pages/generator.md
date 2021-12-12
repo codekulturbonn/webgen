@@ -44,6 +44,16 @@ Wenn selbst eine Website zu aufwängig scheint: Vielleicht reicht auch eine Gemi
 Meine Gemini-Seiten liegen hier: gemini://schettler.net - ich bin etwas schreibfaul :)
 Zum Ansehen brauchst du einen Gemini-Browser. Ich mag [Lagrange](https://gmi.skyjake.fi/lagrange/).
 
+## Installation
+
+Um den Generator zu nutzen, kannst du ihn mit dem folgenden Befehl in dein Projekt einbinden:
+
+    git submodule add https://github.com/codekulturbonn/webgen.git
+
+Die neueste Version des Generators holst du dann immer mit
+
+    git submodule update --recursive
+
 ## Seitenstruktur
 
 Der Generator muss wissen, wo die Teile deiner Seiten liegen. Dafür liest er als erstes die Datei `config.yaml` mit Einstellungen. 
@@ -81,23 +91,25 @@ Dateien aus dem Ordner `assets` werden ohne Änderung in den Zielordner kopiert.
 
 ## Aufruf
 
+Die folgenden aufrufe gehen davon aus, dass du den Generator über ein Git-Submodule im Unterordner `webgen` installiert hast.
+
 Vorbereiten:
 
     python3 -mvenv env
     source env/bin/activate
-    pip install -r requirements.txt
+    pip install -r webgen/requirements.txt
 
 HTML erzeugen:
 
-    ./generate.py
+    ./webgen/generate.py
 
 Zielordner leeren:
 
-    ./generate.py clean
+    ./webgen/generate.py clean
 
 Lokal ansehen:
 
-    ./generate.py serve
+    ./webgen/generate.py serve
 
 ## Bilder
 

@@ -44,6 +44,13 @@
 </ul>
 <p>Meine Gemini-Seiten liegen hier: gemini://schettler.net - ich bin etwas schreibfaul :)
 Zum Ansehen brauchst du einen Gemini-Browser. Ich mag <a href="https://gmi.skyjake.fi/lagrange/">Lagrange</a>.</p>
+<h2>Installation</h2>
+<p>Um den Generator zu nutzen, kannst du ihn mit dem folgenden Befehl in dein Projekt einbinden:</p>
+<pre><code>git submodule add https://github.com/codekulturbonn/webgen.git
+</code></pre>
+<p>Die neueste Version des Generators holst du dann immer mit</p>
+<pre><code>git submodule update --recursive
+</code></pre>
 <h2>Seitenstruktur</h2>
 <p>Der Generator muss wissen, wo die Teile deiner Seiten liegen. Dafür liest er als erstes die Datei <code>config.yaml</code> mit Einstellungen. </p>
 <p>Beispiel:</p>
@@ -72,19 +79,20 @@ menu:
 <p>Aus Bildern in einem Quellordner werden quadratische Bilder in verschiedenen Formategrößen im Zielordner erzeugt. </p>
 <p>Dateien aus dem Ordner <code>assets</code> werden ohne Änderung in den Zielordner kopiert.    </p>
 <h2>Aufruf</h2>
+<p>Die folgenden aufrufe gehen davon aus, dass du den Generator über ein Git-Submodule im Unterordner <code>webgen</code> installiert hast.</p>
 <p>Vorbereiten:</p>
 <pre><code>python3 -mvenv env
 source env/bin/activate
-pip install -r requirements.txt
+pip install -r webgen/requirements.txt
 </code></pre>
 <p>HTML erzeugen:</p>
-<pre><code>./generate.py
+<pre><code>./webgen/generate.py
 </code></pre>
 <p>Zielordner leeren:</p>
-<pre><code>./generate.py clean
+<pre><code>./webgen/generate.py clean
 </code></pre>
 <p>Lokal ansehen:</p>
-<pre><code>./generate.py serve
+<pre><code>./webgen/generate.py serve
 </code></pre>
 <h2>Bilder</h2>
 <ul>

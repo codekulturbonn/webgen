@@ -3,7 +3,7 @@ title: Vorlagen
 summary: Du brauchst kein Künstler zu sein.
 image:
     alt: Webgen
-    src: ./images/katze-1920.jpg
+    src: ./images/huhn-1920.jpg
 teaser_image:
     alt: webgen
     src: ./images/huhn-200.jpg
