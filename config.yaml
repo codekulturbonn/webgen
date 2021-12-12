@@ -13,6 +13,10 @@ menu:
   - title: Start
     href: ./
     img: ./images/home-200.png
+  - title: Segelkalender
+    href: ./advent.html
+    img: ./images/florian-van-schreven-ZFMJ5xECg2I-unsplash-200.jpg
+
 
 # https://www.goodreads.com/author/quotes/4.Douglas_Adams
 captions:

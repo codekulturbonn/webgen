@@ -28,6 +28,22 @@
   ... und Frontmatter: <a href="https://python-frontmatter.readthedocs.io/">Python Frontmatter</a> </li>
 <li>Bilder verkleinern mit <a href="https://pillow.readthedocs.io/">Pillow</a> </li>
 </ul>
+<h2>Alternativen</h2>
+<p>Ehrlich gesagt, ich würde diesen Generator nicht für größere Projekte verwenden. Er tut allerdings alles, was wir für unsere Experimente mit Webseiten brauchen. Besonders Bilder verkleinern andere, ähnliche Programme nicht. Und auch keine Adventskalender erzeugen.</p>
+<p>Hier sind ein paar Alternativen:</p>
+<ul>
+<li><a href="http://www.dmulholl.com/docs/ivy/dev/index.html">Ivy</a> von Darren Mulholland. Ich mag die Einfachheit und Erweiterbarkeit. <a href="https://codekulturbonn.de/">Code. Kultur. Bonn</a> und <a href="https://olav.net">mein Weblog</a> sind damit gebaut.</li>
+<li><a href="https://github.com/myles/awesome-static-generators">Awesome Static Site Generators</a>. Eine Riesenliste mit ähnlichen Werkzeugen. </li>
+</ul>
+<h3>Gemini</h3>
+<p>Wenn selbst eine Website zu aufwängig scheint: Vielleicht reicht auch eine Gemini-Seite. <a href="https://gemini.circumlunar.space/docs/specification.gmi">Das Format</a> ist viel einfacher als HTML. Hier kannst du Gemini-Seiten veröffentlichen:</p>
+<ul>
+<li>https://gemlog.blue</li>
+<li>https://flounder.online</li>
+<li>https://sourcehut.org - <a href="https://sourcehut.org/blog/2021-02-18-sourcehut-pages/">Sourcehut Pages</a></li>
+</ul>
+<p>Meine Gemini-Seiten liegen hier: gemini://schettler.net - ich bin etwas schreibfaul :)
+Zum Ansehen brauchst du einen Gemini-Browser. Ich mag <a href="https://gmi.skyjake.fi/lagrange/">Lagrange</a>.</p>
 <h2>Seitenstruktur</h2>
 <p>Der Generator muss wissen, wo die Teile deiner Seiten liegen. Dafür liest er als erstes die Datei <code>config.yaml</code> mit Einstellungen. </p>
 <p>Beispiel:</p>
@@ -53,7 +69,7 @@ menu:
 <p>Die generierten Seiten liegen unter https://oschettler.github.io/katzen-huehner/</p>
 <p>Hier wird die Seite "Hühner &amp; Katzen" in einem Zielordner <code>output</code> zusammengestellt. </p>
 <p>Seiten liegen in einem Quellordner im Markdown-Format. Mithilfe von Seitenvorlagen werden daraus HTML-Seiten im Zielordner erzeugt. </p>
-<p>Aus Bildern in einem Quellordner werden verschiedene Formate im Zielordner erzeugt. </p>
+<p>Aus Bildern in einem Quellordner werden quadratische Bilder in verschiedenen Formategrößen im Zielordner erzeugt. </p>
 <p>Dateien aus dem Ordner <code>assets</code> werden ohne Änderung in den Zielordner kopiert.    </p>
 <h2>Aufruf</h2>
 <p>Vorbereiten:</p>
@@ -63,6 +79,9 @@ pip install -r requirements.txt
 </code></pre>
 <p>HTML erzeugen:</p>
 <pre><code>./generate.py
+</code></pre>
+<p>Zielordner leeren:</p>
+<pre><code>./generate.py clean
 </code></pre>
 <p>Lokal ansehen:</p>
 <pre><code>./generate.py serve
@@ -80,6 +99,7 @@ pip install -r requirements.txt
           <p>&copy; 2021 &middot; Webseiten</p>
 	            <nav>
                 <a title="Start" href="./"><img src="./images/home-200.png"></a>
+                <a title="Segelkalender" href="./advent.html"><img src="./images/florian-van-schreven-ZFMJ5xECg2I-unsplash-200.jpg"></a>
             </nav>
 	        </footer>
     </body>

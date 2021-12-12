@@ -54,6 +54,10 @@ HTML erzeugen:
 
     ./generate.py
 
+Zielordner leeren:
+
+    ./generate.py clean
+
 Lokal ansehen:
 
     ./generate.py serve

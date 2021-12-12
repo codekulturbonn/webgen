@@ -24,6 +24,26 @@ Der Generator verwendet einige Bibliotheken, um seine Aufgaben zu erledigen:
   ... und Frontmatter: [Python Frontmatter](https://python-frontmatter.readthedocs.io/) 
 * Bilder verkleinern mit [Pillow](https://pillow.readthedocs.io/) 
 
+## Alternativen
+
+Ehrlich gesagt, ich würde diesen Generator nicht für größere Projekte verwenden. Er tut allerdings alles, was wir für unsere Experimente mit Webseiten brauchen. Besonders Bilder verkleinern andere, ähnliche Programme nicht. Und auch keine Adventskalender erzeugen.
+
+Hier sind ein paar Alternativen:
+
+* [Ivy](http://www.dmulholl.com/docs/ivy/dev/index.html) von Darren Mulholland. Ich mag die Einfachheit und Erweiterbarkeit. [Code. Kultur. Bonn](https://codekulturbonn.de/) und [mein Weblog](https://olav.net) sind damit gebaut.
+* [Awesome Static Site Generators](https://github.com/myles/awesome-static-generators). Eine Riesenliste mit ähnlichen Werkzeugen. 
+
+### Gemini
+
+Wenn selbst eine Website zu aufwängig scheint: Vielleicht reicht auch eine Gemini-Seite. [Das Format](https://gemini.circumlunar.space/docs/specification.gmi) ist viel einfacher als HTML. Hier kannst du Gemini-Seiten veröffentlichen:
+
+* https://gemlog.blue
+* https://flounder.online
+* https://sourcehut.org - [Sourcehut Pages](https://sourcehut.org/blog/2021-02-18-sourcehut-pages/)
+
+Meine Gemini-Seiten liegen hier: gemini://schettler.net - ich bin etwas schreibfaul :)
+Zum Ansehen brauchst du einen Gemini-Browser. Ich mag [Lagrange](https://gmi.skyjake.fi/lagrange/).
+
 ## Seitenstruktur
 
 Der Generator muss wissen, wo die Teile deiner Seiten liegen. Dafür liest er als erstes die Datei `config.yaml` mit Einstellungen. 
@@ -55,7 +75,7 @@ Hier wird die Seite "Hühner & Katzen" in einem Zielordner `output` zusammengest
 
 Seiten liegen in einem Quellordner im Markdown-Format. Mithilfe von Seitenvorlagen werden daraus HTML-Seiten im Zielordner erzeugt. 
 
-Aus Bildern in einem Quellordner werden verschiedene Formate im Zielordner erzeugt. 
+Aus Bildern in einem Quellordner werden quadratische Bilder in verschiedenen Formategrößen im Zielordner erzeugt. 
 
 Dateien aus dem Ordner `assets` werden ohne Änderung in den Zielordner kopiert.    
 
@@ -70,6 +90,10 @@ Vorbereiten:
 HTML erzeugen:
 
     ./generate.py
+
+Zielordner leeren:
+
+    ./generate.py clean
 
 Lokal ansehen:
 
