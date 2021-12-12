@@ -1,0 +1,42 @@
+title: "Webgen"
+pages: ./src/pages
+images: ./src/images
+assets: ./src/static
+templates: ./templates
+output: ./docs
+
+image_sizes: 
+  - 1920
+  - 200
+
+menu:
+  - title: Start
+    href: ./
+    img: ./images/home-200.png
+
+# https://www.goodreads.com/author/quotes/4.Douglas_Adams
+captions:
+- I may not have gone where I intended to go, but I think I have ended up where I needed to be. (Douglas Adams)
+- I love deadlines. I love the whooshing noise they make as they go by. (Douglas Adams)
+- "The story so far: In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.(Douglas Adams)"
+- I refuse to answer that question on the grounds that I don't know the answer (Douglas Adams)
+- The Guide says there is an art to flying", said Ford, "or rather a knack. The knack lies in learning how to throw yourself at the ground and miss. (Douglas Adams)
+- "Don't Panic. (Douglas Adams)"
+- Time is an illusion. Lunchtime doubly so. (Douglas Adams)
+- "A learning experience is one of those things that says, 'You know that thing you just did? Don't do that. (Douglas Adams)"
+- A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools. (Douglas Adams)
+- "Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all. (Douglas Adams)"
+- Would it save you a lot of time if I just gave up and went mad now? (Douglas Adams)
+- "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too? (Douglas Adams)"
+- "The ships hung in the sky in much the same way that bricks don't. (Douglas Adams)"
+- Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws. Douglas Adams)
+- He felt that his whole life was some kind of dream and he sometimes wondered whose it was and whether they were enjoying it. (Douglas Adams)
+- "I'd far rather be happy than right any day. (Douglas Adams)"
+- "If there's anything more important than my ego around, I want it caught and shot now. (Douglas Adams)"
+- For a moment, nothing happened. Then, after a second or so, nothing continued to happen. (Douglas Adams)
+- You live and learn. At any rate, you live. (Douglas Adams)
+- "This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays. (Douglas Adams)"
+- "I'd take the awe of understanding over the awe of ignorance any day. (Douglas Adams)"
+- Reality is frequently inaccurate. (Douglas Adams)
+- There are some people you like immediately, some whom you think you might learn to like in the fullness of time, and some that you simply want to push away from you with a sharp stick. (Douglas Adams)
+- If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat. (Douglas Adams)
