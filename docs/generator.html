@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Webgen | Webseiten</title>
+        <link href="./styles.css" rel="stylesheet">
+        <style>
+        body { background-color: red; }
+
+        h1 { border-left-color: #c00; }
+        
+        footer { background-color: #fcc; }
+        
+        footer { color: white; }
+        footer img { border-color: white; }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header><img alt="Webgen" src="./images/katze-1920.jpg"></header>
+            <h1>Webseiten: Webgen</h1>
+            <p>Webseiten kannst du in HTML (<em>Hypertext Markup Language</em>) einfach mit der Hand schreiben. Ein paar Dinge lassen sich aber automatisieren. Dabei hilft dieses kleine Python-Programm. Es erzeugt (<em>generiert</em>) HTML-Seiten aus Inhalten, Vorlagen (<em>Templates</em>), Bildern und Stilvorlagen (<em>Style Sheets</em> in der Sprache <em>CSS</em> - Cascading Style Sheets).</p>
+<p>Der Generator verwendet einige Bibliotheken, um seine Aufgaben zu erledigen:</p>
+<ul>
+<li>Einstellungen im YAML-Format: <a href="https://pyyaml.org/wiki/PyYAMLDocumentation">PyYAML</a></li>
+<li>Seitenvorlagen im Mustache-Format: <a href="https://github.com/noahmorrison/chevron">Chevron</a></li>
+<li>Seiten mit <a href="https://github.com/Python-Markdown/markdown">Markdown</a>
+  ... und Frontmatter: <a href="https://python-frontmatter.readthedocs.io/">Python Frontmatter</a> </li>
+<li>Bilder verkleinern mit <a href="https://pillow.readthedocs.io/">Pillow</a> </li>
+</ul>
+<h2>Seitenstruktur</h2>
+<p>Der Generator muss wissen, wo die Teile deiner Seiten liegen. Dafür liest er als erstes die Datei <code>config.yaml</code> mit Einstellungen. </p>
+<p>Beispiel:</p>
+<pre><code>title: "Hühner &amp; Katzen"
+pages: ./quelle/seiten
+images: ./quelle/bilder
+assets: ./quelle/statisch
+templates: ./templates
+output: ./docs
+
+image_sizes: 
+- 600
+- 80
+
+menu:
+- title: Katzen
+    href: /
+    img: /images/katze-80.jpg
+- title: Hühner
+    href: /seite2.html
+    img: /images/huhn-80.jpg
+</code></pre>
+<p>Die generierten Seiten liegen unter https://oschettler.github.io/katzen-huehner/</p>
+<p>Hier wird die Seite "Hühner &amp; Katzen" in einem Zielordner <code>output</code> zusammengestellt. </p>
+<p>Seiten liegen in einem Quellordner im Markdown-Format. Mithilfe von Seitenvorlagen werden daraus HTML-Seiten im Zielordner erzeugt. </p>
+<p>Aus Bildern in einem Quellordner werden verschiedene Formate im Zielordner erzeugt. </p>
+<p>Dateien aus dem Ordner <code>assets</code> werden ohne Änderung in den Zielordner kopiert.    </p>
+<h2>Aufruf</h2>
+<p>Vorbereiten:</p>
+<pre><code>python3 -mvenv env
+source env/bin/activate
+pip install -r requirements.txt
+</code></pre>
+<p>HTML erzeugen:</p>
+<pre><code>./generate.py
+</code></pre>
+<p>Lokal ansehen:</p>
+<pre><code>./generate.py serve
+</code></pre>
+<h2>Bilder</h2>
+<ul>
+<li>https://unsplash.com/photos/7GX5aICb5i4</li>
+<li>https://unsplash.com/photos/auijD19Byq8</li>
+</ul>
+<h2>Lizenz</h2>
+<p>MIT.</p>
+        </main>
+
+        <footer>
+          <p>&copy; 2021 &middot; Webseiten</p>
+	            <nav>
+                <a title="Start" href="./"><img src="./images/home-200.png"></a>
+            </nav>
+	        </footer>
+    </body>
+</html>

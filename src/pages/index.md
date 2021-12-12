@@ -1,7 +1,7 @@
 ---
-title: Startseite
+title: Bausteine und Hilfsmittel
 ---
-Hier sind unser Tiere
+Hier sind ein paar Hilfsmittel, die beim Bauen von Webseiten helfen.
 
 <section id="teasers">
 {{# pages }}
