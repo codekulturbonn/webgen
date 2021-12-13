@@ -14,7 +14,7 @@ colors:
         background: '#ccf'
         foreground: white
 ---
-In unseren ersten Webprojekten hatten wir [eine einfache Vorlage](https://github.com/codekulturbonn/webgen/templates/article.mustache) selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:
+In unseren ersten Webprojekten hatten wir [eine einfache Vorlage](https://github.com/codekulturbonn/webgen/blob/main/templates/article.mustache) selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:
 
 * https://www.w3schools.com/w3css/w3css_templates.asp
 
