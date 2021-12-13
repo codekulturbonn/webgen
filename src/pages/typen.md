@@ -94,7 +94,7 @@ Die großen Shops kennt ihr. Es ist aber inzwischen gar nicht mehr so schwierig,
 * [TIC-80](https://tic80.com/)
 * [Pyxel](https://github.com/kitao/pyxel)
 * [Microblocks](http://microblocks.fun/)
-* [Scratch](https://scratch.mit.edu/]
+* [Scratch](https://scratch.mit.edu/)
 * [micro:bit](https://microbit.org/)
 * [Calliope](https://calliope.cc/)
 
