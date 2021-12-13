@@ -22,7 +22,8 @@ Wollt ihr selber eure Lieblings-Webseiten eintragen? Ich schicke euch einen Link
 
 ## Digitale Gärten
 
-* [Artikel dazu](https://github.com/MaggieAppleton/digital-gardeners)
+* [Artikel dazu](https://maggieappleton.com/garden-history)
+* [Verzeichnis](https://github.com/MaggieAppleton/digital-gardeners)
 
 ## Weblogs (digitale Tagebücher)
 
