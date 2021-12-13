@@ -8,6 +8,7 @@ output: ./docs
 image_sizes: 
   - 1920
   - 200
+  - 80
 
 menu:
   - title: Start
