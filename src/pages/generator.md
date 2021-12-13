@@ -14,7 +14,7 @@ colors:
         background: '#fcc'
         foreground: white
 ---
-Webseiten kannst du in HTML (_Hypertext Markup Language_) einfach mit der Hand schreiben. Ein paar Dinge lassen sich aber automatisieren. Dabei hilft ein kleine Python-Programm, [unser HTML-Generator](https://github.com/codekulturbonn/webgen.git). Es erzeugt (_generiert_) HTML-Seiten aus Inhalten, Vorlagen (_Templates_), Bildern und Stilvorlagen (_Style Sheets_ in der Sprache _CSS_ - Cascading Style Sheets).
+Webseiten kannst du in HTML (_Hypertext Markup Language_) einfach mit der Hand schreiben. Ein paar Dinge lassen sich aber automatisieren. Dabei hilft ein kleines Python-Programm, [unser HTML-Generator](https://github.com/codekulturbonn/webgen.git). Es erzeugt (_generiert_) HTML-Seiten aus Inhalten, Vorlagen (_Templates_), Bildern und Stilvorlagen (_Style Sheets_ in der Sprache _CSS_ - Cascading Style Sheets).
 
 Der Generator verwendet einige Bibliotheken, um seine Aufgaben zu erledigen:
 
