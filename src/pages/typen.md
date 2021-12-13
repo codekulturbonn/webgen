@@ -9,14 +9,14 @@ teaser_image:
     src: ./images/ziege-200.jpg
 colors:
     background: orange
-    accent: '#cc0'
+    accent: '#ffd07f'
     footer:
         background: '#ffc'
         foreground: white
 ---
-![Tim](./images/tim-80.jpg)
+<img style="float:right;margin:0 0 20px 20px;border:solid 8px #ffd07f" src="./images/tim-80.jpg" alt="Tim">
 
-Erfunden hat das World-wide Web der Engländer Sir Tim Berners-Lee; wegen dieser Erfindung wurde er von der Englischen Königin zum Ritter geschlagen. Gestartet mit der [ersten Website](http://info.cern.ch/) am Schweizer Forschungszentrum CERN, gibt es inzwischen Millliarden von Websites. Aber nicht alle sind gleich.
+Erfunden hat das World-wide Web der Engländer Sir Tim Berners-Lee; wegen dieser Erfindung wurde er von der englischen Königin zum Ritter geschlagen. Gestartet mit der [ersten Website](http://info.cern.ch/) am Schweizer Forschungszentrum CERN, gibt es inzwischen Millliarden von Websites. Aber nicht alle sind gleich.
 
 Wollt ihr selber eure Lieblings-Webseiten eintragen? Ich schicke euch einen Link zum Bearbeiten [des Kinopio-Spaces](https://kinopio.club/websites-XhsfzYCgOE0g-ifjPPrNk).
 
@@ -26,12 +26,12 @@ Wollt ihr selber eure Lieblings-Webseiten eintragen? Ich schicke euch einen Link
 
 ## Weblogs (digitale Tagebücher)
 
-* Schockwellenreiter
+* [Schockwellenreiter](http://blog.schockwellenreiter.de/)
 * [Wait, but why?](https://waitbutwhy.com/)
 
 ## Prospekte / Veranstaltungen
 
-* ...
+* [The Tempest (in space)](https://www.brotfabrik-theater.de/the-tempest/)
 
 ## Hompages von Projekten, Firmen und Einrichtungen
 
@@ -53,8 +53,8 @@ Schaut auch einmal auf [meine Liste auf Code.Kultur.Bonn](https://codekulturbonn
 * [Kika](https://www.kika.de/index.html)
 * [Bonner Generalanzeiger](https://ga.de/)
 * [XKCD-Comics](https://xkcd.com/)
-* Kickstarter. Erfindungen
-* Patreon. Künstler unterstützen
+* [Kickstarter](https://www.kickstarter.com/). Erfindungen
+* [Patreon](https://www.patreon.com/). Künstler unterstützen
 
 ## Suchmaschinen
 
@@ -64,7 +64,7 @@ Der Verein [Digital Courage e.V.](https://digitalcourage.de/digitale-selbstverte
 
 Die großen Shops kennt ihr. Es ist aber inzwischen gar nicht mehr so schwierig, selber einen eigenen Online-Shop zu eröffnen. Eine Möglichkeit ist 
 
-* https://gumroad.com/
+* [Gumroad](https://gumroad.com/)
 
 ## Apps
 
@@ -75,11 +75,13 @@ Die großen Shops kennt ihr. Es ist aber inzwischen gar nicht mehr so schwierig,
 * [Sandstorm](https://sandstorm.io/). Selber betrieben 
 * [SDF](http://sdf.org/). Shell, Website, EMail
 
-## Entwicklung
+## Hosting
 
-* Glitch
-* Github
-* Sourcehut
+* [Glitch](https://glitch.com/)
+* [Github](https://github.com/codekulturbonn)
+* [Sourcehut](https://sourcehut.org/)
+* [Hetzner](https://hetzner.de)
+* [Uberspace](https://uberspace.de/de/)
 
 ## Social Networks
 
@@ -87,12 +89,13 @@ Die großen Shops kennt ihr. Es ist aber inzwischen gar nicht mehr so schwierig,
 
 ## Spiele & Coden
 
-* https://www.lexaloffle.com/pico-8.php
-* http://microblocks.fun/
-* https://scratch.mit.edu/
-* https://microbit.org/
-* https://calliope.cc/
-* 
+* [Pico-8](https://www.lexaloffle.com/pico-8.php)
+* [TIC-80](https://tic80.com/)
+* [Pyxel](https://github.com/kitao/pyxel)
+* [Microblocks](http://microblocks.fun/)
+* [Scratch](https://scratch.mit.edu/]
+* [micro:bit](https://microbit.org/)
+* [Calliope](https://calliope.cc/)
 
 ## Wissen & Datenbanken
 
@@ -100,5 +103,6 @@ Die großen Shops kennt ihr. Es ist aber inzwischen gar nicht mehr so schwierig,
 * Rezepte
 * Musiknoten
 * Projektideen
-* https://standardebooks.org/
-* https://www.projekt-gutenberg.org/
+* [Standard EBooks](https://standardebooks.org/)
+* [Projekt Gutenberg](https://www.projekt-gutenberg.org/)
+* [Archive.org](https://archive.org)
