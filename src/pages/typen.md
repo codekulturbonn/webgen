@@ -1,6 +1,6 @@
 ---
 title: Website-Typen
-summary: Es gibt digitale Gärten, Shops, Tagebücher, Aoos, Prospekte, Alben, ...
+summary: Es gibt digitale Gärten, Shops, Tagebücher, Apps, Prospekte, Alben, ...
 image:
     alt: Typen
     src: ./images/ziege-1920.jpg
