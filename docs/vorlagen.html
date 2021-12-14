@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Vorlagen | Webseiten</title>
+        <title>Technik &amp; Vorlagen | Webseiten</title>
         <link href="./styles.css" rel="stylesheet">
         <meta property="og:image" content="./images/huhn-1920.jpg">
         <style>
@@ -19,8 +19,55 @@
     <body>
         <main>
             <header><img alt="Webgen" src="./images/huhn-1920.jpg"></header>
-            <h1>Webseiten: Vorlagen</h1>
-            <p>In unseren ersten Webprojekten hatten wir <a href="https://github.com/codekulturbonn/webgen/blob/main/templates/article.mustache">eine einfache Vorlage</a> selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:</p>
+            <h1>Webseiten: Technik &amp; Vorlagen</h1>
+            <h2>Technik</h2>
+<p>das World-wide Web <em>WWW</em>, wie es von Sir Tim Berners-Lee Anfang der 1990er Jahre, also vor 30 Jahren erfunden wurde, besteht aus ein paar Teilen:</p>
+<h3>HTTP - das Hypertext-Transfer-Protokoll</h3>
+<p>Regeln, wie Seiten über das Internet übertragen werden. Diese Regeln sind im <em>HTTP-Protokoll</em> zusammengefasst. HTTP steht für "Hypertext-Transfer-Protokoll".</p>
+<p>Seiten werden per HTTP über eine Anfrage angefragt und in der antwort vom Server (das ist der gegenüberliegende Rechner) zurüchgeliefert.</p>
+<p>Beispiel:</p>
+<pre><code>telnet codekulturbonn.de 80
+
+GET /webgen/aaa.html HTTP/1.0
+</code></pre>
+<p>Diese Anfrage gibt den Inhalt der Seite zurück.</p>
+<h3>URLs - Uniform Resource Locators</h3>
+<p>Seiten, Bilder und andere Dateien im Word-wide Web haben eine Adresse. Diese haben das Format</p>
+<pre><code>https://codekulturbonn.de/webgen/aaa.html
+</code></pre>
+<p>Darin sind "https" das Schema, "codekulturbonn.de" der Rechnername, "/webgen/aaa.html" der Pfad zu der Datei auf diesem Rechner.</p>
+<p>Es gibt noch zwei weitere Teile, die man seltener sieht:</p>
+<pre><code>https://www.google.de/search?q=Clara-Schuhmann
+</code></pre>
+<p>Suchbegriffe können an Seiten hinter einem "?..." übergeben werden.</p>
+<p>Stellen innerhalb einer Seite können durch Anhängen von "#..." angesprungen werden.</p>
+<pre><code>https://codekulturbonn.de/webgen/bbb.html#abschnitt-2
+</code></pre>
+<h3>HTML - die Hypertext Markup Language</h3>
+<p>Eine Sprache für Seiten im WWW. Diese Sprache heißt <em>HTML</em> ("Hypertext Markup Language") legt die Vokabeln (<em>Tags</em>, <em>Eigenschaften</em>) und Grammatik fest, in der Seiten geschrieben werden. </p>
+<p>Tags (groß oder klein geschrieben) werden in spitzen Klammern geschrieben und werden manchmal einzeln, manchmal paarweise verwandt:</p>
+<pre><code>&lt;p&gt;Ich bin ein Absatz&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Eintrag eins&lt;/li&gt;
+    &lt;li&gt;Eintrag zwei&lt;/li&gt;
+&lt;/u&gt;
+
+&lt;img src="../images/katze-80.jpg"&gt;
+
+&lt;a href="./typen.html"&gt;Andere Seite&lt;/a&gt;
+</code></pre>
+<p>Beispiele für Tags sind</p>
+<ul>
+<li>HTML - paarweise. Schließt die gesamte Seite ein. Eine HTML-Seite hat eine Kopf in HEAD und einen Rumpf in BODY, die als Paar jeweils weitere Tags einschliessen</li>
+<li>H1, H2, ... - paarweise. Überschriften auf verschiedenen Ebenen.</li>
+<li>P - paarweise. Absätze werden in P-Pärchen eingeschlossen. Absätze dürfen nicht geschachtelt werden.</li>
+<li>UL, OL - Listen mit Punkten oder Nummern. Listen können verschachtelt werden. Listeneinträge werden in Paare aus LI eingeschlossen.</li>
+<li>IMG - Bilder werden über IMG eingebunden. Die Bilddatei wird über ein <em>src</em>-Attribut benannt.</li>
+<li>A - Hyperlinks sind klickbare Textstellen, die zu anderen Seiten führen. Die Zielseite wird im <em>href</em>-Attribut benannt. Die drei Testseiten <a href="./aaa.html">Aaa</a>, <a href="./bbb.html">Bbb</a>, <a href="./ccc.html">Ccc</a> sind untereinander verlinkt. </li>
+</ul>
+<h2>Vorlagen</h2>
+<p>In unseren ersten Webprojekten hatten wir <a href="https://github.com/codekulturbonn/webgen/blob/main/templates/article.mustache">eine einfache Vorlage</a> selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:</p>
 <ul>
 <li>https://www.w3schools.com/w3css/w3css_templates.asp</li>
 </ul>
