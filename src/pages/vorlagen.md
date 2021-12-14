@@ -80,11 +80,11 @@ Beispiele für Tags sind
 
 In unseren ersten Webprojekten hatten wir [eine einfache Vorlage](https://github.com/codekulturbonn/webgen/blob/main/templates/article.mustache) selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:
 
-* https://www.w3schools.com/w3css/w3css_templates.asp
+* [W3Schools](https://www.w3schools.com/w3css/w3css_templates.asp)
 
 Daneben gibt es auch Werkzeuge und spezielle Editoren zum Anlegen schicker Websites:
 
-* https://nicepage.com/html-website-builder (Mac und Windows)
-* http://www.bluegriffon.org/#main
+* [Website-Builder von NicePage](https://nicepage.com/html-website-builder) (Mac und Windows)
+* [Blue Griffon](http://www.bluegriffon.org/)
 
 Ich will nicht verschweigen, dass viele Leute Wordpress oder Tumblr benutzen. Das ist auch OK. irgendwie nicht OK ist, die eigenen, coolen Webprojekte auf den Seiten von Mark Zuckerberg, einem amerikanischen Milliardär, abzulegen.  
