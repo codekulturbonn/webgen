@@ -16,7 +16,7 @@ colors:
 ---
 ## Technik
 
-das World-wide Web _WWW_, wie es von Sir Tim Berners-Lee Anfang der 1990er Jahre, also vor 30 Jahren erfunden wurde, besteht aus ein paar Teilen:
+das World-wide Web _WWW_, wie es von Sir Tim Berners-Lee Anfang der 1990er Jahre, also vor 30 Jahren, erfunden wurde, besteht aus ein paar Teilen:
 
 ### HTTP - das Hypertext-Transfer-Protokoll
 
