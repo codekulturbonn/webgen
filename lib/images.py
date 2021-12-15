@@ -12,7 +12,7 @@ def filter(data, **kwargs):
     data['source_images'] = []
     n = 1
     for i in glob.glob(data['images']):
-        #print(n)
+        #print("IMAGE", n)
         filename = os.path.basename(i)
         base, ext = os.path.splitext(filename)
         data['source_images'].append({
