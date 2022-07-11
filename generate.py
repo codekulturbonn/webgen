@@ -41,7 +41,7 @@ def load_templates():
 
     dir = config['templates']
     for filename in os.listdir(dir):
-        if not entry.name.endswith('.mustache'):
+        if not filename.endswith('.mustache'):
             continue
         name = os.path.splitext(filename)[0]
         templates[name] = open(os.path.join(dir, filename)).read()
