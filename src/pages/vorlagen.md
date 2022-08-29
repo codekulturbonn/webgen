@@ -78,7 +78,61 @@ Beispiele für Tags sind
 
 ## Vorlagen
 
-In unseren ersten Webprojekten hatten wir [eine einfache Vorlage](https://github.com/codekulturbonn/webgen/blob/main/templates/article.mustache) selbst gebaut. Das ist nicht schwer. Willst du aber mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:
+In unseren ersten Webprojekten hatten wir [eine einfache Vorlage](https://github.com/,/webgen/blob/main/templates/article.mustache) selbst gebaut. Das ist nicht schwer. 
+
+Hier ist eine vollständige Website:
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Eine einfache Webseite</title>
+            <style>
+            body { background-color: blue; }
+            main {
+                background-color: white;
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            </style>
+        </head>
+        <body>
+            <main>
+                <h1>Willkommen auf meiner Website</h1>
+
+                <p>Das hier ist nur ein Beispiel. Der Text steht auf 
+                weißem Hintergrund, der Rand der Seite ist blau. 
+                Texte bestehen aus</p> 
+                
+                <ul>
+                    <li>Überschriften,</li>
+                    <li>Absätzen,</li> 
+                    <li>vielleicht auch noch Listen.</li>
+                </ul>
+
+                <p>Das Coolste an Websites sind Links. 
+                Hier ist <a 
+                    href="https://steinsekte.xyz">ein Link zur STEINsekte</a>.</p>
+            </main>
+        </body>
+    </html>
+
+Die Seite ist in HTML geschrieben und besteht aus dem Kopf in &lt;head> und dem Rumpf in &lt;body>. Im Rumpf stehen die Inhalte mit Texten, Bildern oder sogar Videos. 
+
+Der Abschnitt in &lt;style> im Kopf ist ein Stylesheet in der Sprache CSS. Hiermit bestimmst du, wie die Seite und die Elemente darauf aussehen sollen. Also: Blauer Rahmen, Abstände, zentriert, diese und jene Schriftart.  
+
+Um diese Seite im Browser (Firefox, Chrome) anzusehen, musst du den Text kopieren, als Datei mit der Endung `.html` speichern und im Browser öffnen. Hier ist die Seite im Editor. Auf meinem Mac benutze ich [Textmate](https://macromates.com/). Auf einem Linux-Rechner mit ElementaryOS kannst du den [Code-Editor](https://elementary.io/de/#showcase-code) benutzen. Wenn du auf Windows arbeiten musst, funktioniert [Notepad++](https://notepad-plus-plus.org/).
+
+![Seite im Editor](images/SCR-20220829-qnb-200.png)
+
+Hier ist die selbe Seite im Browser:
+
+![Seite im  Browser](images/SCR-20220829-qtl-200.png)
+
+Mit CMD-U auf dem Mac oder CTRL-U bzw. STRG-U kannst du dir übrigens immer den Quelltext der Seite ansehen.
+
+Willst du mal etwas aufwändigere Designs ausprobieren, gibt es Seitenvorlagen zum Herunterladen. Hier sind ein paar Verzeichnisse:
 
 * [W3Schools](https://www.w3schools.com/w3css/w3css_templates.asp)
 
@@ -87,4 +141,4 @@ Daneben gibt es auch Werkzeuge und spezielle Editoren zum Anlegen schicker Websi
 * [Website-Builder von NicePage](https://nicepage.com/html-website-builder) (Mac und Windows)
 * [Blue Griffon](http://www.bluegriffon.org/)
 
-Ich will nicht verschweigen, dass viele Leute Wordpress oder Tumblr benutzen. Das ist auch OK. irgendwie nicht OK ist, die eigenen, coolen Webprojekte auf den Seiten von Mark Zuckerberg, einem amerikanischen Milliardär, abzulegen.  
+Ich will nicht verschweigen, dass viele Leute Wordpress oder Tumblr benutzen. Das ist auch OK. irgendwie nicht OK ist, die eigenen, coolen Webprojekte auf den Seiten von Mark Zuckerberg, einem amerikanischen Milliardär, abzulegen. Zu seinen Seiten gehören Facebook, Instagram oder auch WhatApp. 
