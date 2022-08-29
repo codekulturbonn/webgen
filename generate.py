@@ -41,6 +41,8 @@ def load_templates():
 
     dir = config['templates']
     for filename in os.listdir(dir):
+        if not filename.endswith('.mustache'):
+            continue
         name = os.path.splitext(filename)[0]
         templates[name] = open(os.path.join(dir, filename)).read()
 
@@ -78,6 +80,8 @@ def collect_pages(root_dir, dir = '.'):
                         'filename': out_filename,
                         'meta': article.metadata
                     })
+                elif entry.name.endswith('~'):
+                    continue
                 else:
                     out_path = os.path.join(out_dir, entry.name)
                     pages.append({
