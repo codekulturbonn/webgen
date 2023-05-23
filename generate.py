@@ -70,13 +70,13 @@ def collect_pages(root_dir, dir = '.'):
                     out_path = os.path.join(out_dir, out_filename)
 
                     article = frontmatter.load(source_path)
-                    
                     pages.append({
                         'source_path': source_path,
                         'out_path': out_path,
                         'dir': dir,
                         'basename': basename,
                         'is_index': basename == 'index',
+                        'in_menu': basename != 'index' and not ('hide' in article.metadata and article.metadata['hide']),  
                         'filename': out_filename,
                         'meta': article.metadata
                     })
@@ -90,6 +90,7 @@ def collect_pages(root_dir, dir = '.'):
                         'dir': dir,
                         'basename': basename,
                         'is_index': basename == 'index',
+                        'in_menu': False,
                         'filename': entry.name,
                     })
 
@@ -210,6 +211,7 @@ if __name__ == '__main__':
         # Sonst wandle Seiten, Bilder und kopiere sie zusammen mit den statischen Dateien 
         load_templates()
         collect_pages(config['pages'])
+        print(yaml.dump(pages))
 
         shutil.copytree(config['assets'], config['output'], dirs_exist_ok=True)
 
