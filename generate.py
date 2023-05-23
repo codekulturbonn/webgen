@@ -180,11 +180,13 @@ def generate_images(root_dir, dir = '.'):
 
                     print(f"Bild {out_path}")
 
-                    image = Image.open(source_path)
-                    #image.thumbnail((size, size))
-                    thumb = ImageOps.fit(image, (size, size), Image.ANTIALIAS)
-                    thumb.save(out_path)
-
+                    try:
+                        image = Image.open(source_path)
+                        #image.thumbnail((size, size))
+                        thumb = ImageOps.fit(image, (size, size), Image.ANTIALIAS)
+                        thumb.save(out_path)
+                    except:
+                        print(f"Konnte Bild {source_path} nicht verkleinern")
 
 if __name__ == '__main__':
     load_config()
